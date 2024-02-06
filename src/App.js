@@ -5,7 +5,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import LoadingBar from "react-top-loading-bar";
 
 const App = () => {
-  const api = process.env.REACT_APP_NEWS_API_KEY;
+  // const api = process.env.REACT_APP_NEWS_API_KEY; // You can use this line to hide your API key
+  const api = '989298920be64d0a9d76e16cd8b732c5';
   const [progress, setProgress] = useState(0);
 
   return (
